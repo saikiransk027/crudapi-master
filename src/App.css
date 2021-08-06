@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap');
+
+body {
+  margin: 0;
+  padding: 20px 20px 100px 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  background: #659999;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f4791f, #659999);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f4791f, #659999); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.App {
+  text-align: center;
+}
+
+.posts {
+  
+  text-align: center;
+  margin-top: 20px;
+      border-radius: 25px;
+    padding: 20px;
+    width: 500px;
+    height: 150px;
+    width:800px; margin:0 auto
+  
+}
+
+.post {
+  /* border-bottom: 1px solid #ccc; */
+    border-radius: 25px;
+    border: 2px solid #a28867;
+    padding: 20px;
+    width: 500px;
+    height: 150px;
+    background-color: whitesmoke;
+    width:800px; margin:0 auto
+}
+
+.post:nth-child(odd) {
+  background-color: #f4f4f4;
+}
+
+.btn-download {
+  text-align: center;
+  margin-top: 20px;
+}
+
+button {
+  background-color: #ccc;
+  color: #555;
+  border-radius: 4px;
+  padding: 10px 20px;
+  margin: 1px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+input, textarea {
+  width: 100%;
+  max-width: 300px;
+  padding: 10px;
+  margin: 4px;
+}
+
+textarea {
+  height: 100px;
+}
+
+h3 {
+  text-transform: capitalize;
+}
+
+p {
+  color: #666;
+}
+
+#tree{
+    align-content: center;
+    text-align: center;
+    border-radius: 25px;
+    border: 2px solid #a28867;
+    padding: 20px;
+    width: 500px;
+    height: 280px;
+    background-color: whitesmoke;
+    width:800px; margin:0 auto;
+    
+    
+}
+
+#fish{
+  
+    border: 2px solid #352a2a;
+    border-radius: 12px;
+}
+#sea{
+  
+    border: 2px solid #352a2a;
+    border-radius: 12px;
+}
+
+#bee{
+  text-align: center;
+    border-radius: 25px;
+    border: 2px solid #a28867;
+    padding: 20px;
+    width: 500px;
+    height: 280px;
+    background-color: whitesmoke;
+    width:800px; margin:0 auto;
+}
+
+#lish{
+  
+    border: 2px solid #352a2a;
+    border-radius: 12px;
+}
+
+#qish{
+  
+    border: 2px solid #352a2a;
+    border-radius: 12px;
+}
